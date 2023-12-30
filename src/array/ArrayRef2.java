@@ -1,4 +1,4 @@
-package array1;
+package array;
 
 public class ArrayRef2 {
 

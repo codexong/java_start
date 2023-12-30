@@ -1,4 +1,4 @@
-package array1;
+package array;
 
 public class EnhancedFor1 {
 
@@ -14,9 +14,14 @@ public class EnhancedFor1 {
 
         System.out.println();
 
-        //향상된 for문
+        //향상된 for문 -> for each문
         for(int number : numbers){
             System.out.println(number);
+        }
+
+        //for each를 사용할 수 없는 경우 -> 직접적으로 인덱스가 필요한 경우
+        for(int i = 0; i < numbers.length; i++){
+            System.out.println("number" + i + "번의 결과는 : " + numbers[i]);
         }
 
     }
